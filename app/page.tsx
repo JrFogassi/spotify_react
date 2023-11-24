@@ -26,8 +26,14 @@ export default function Home() {
             </a>
           </nav>
 
-          <nav className="mt-10 pt-10 border-t border-zinc-800">
-
+          <nav className="mt-10 pt-6 border-t border-zinc-800 flex flex-col gap-3">
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Top Brasil</a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Mix de Treino </a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Mix de Jogos </a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">Mix de Rock </a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">This is Eminem </a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">My Playlist </a>
+            <a href="" className="text-sm text-zinc-400 hover:text-zinc-100">This is Deftones </a>
           </nav>
         </aside>
         <main className="flex-1 p-6">
