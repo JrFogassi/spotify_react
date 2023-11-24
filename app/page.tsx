@@ -1,4 +1,5 @@
-import {Home as HomeIcon, Search, BookHeadphones} from 'lucide-react'
+import {Home as HomeIcon, Search, BookHeadphones, ChevronLeft, ChevronRight, Play} from 'lucide-react'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -37,7 +38,61 @@ export default function Home() {
           </nav>
         </aside>
         <main className="flex-1 p-6">
-          main
+          <div className="flex items-center gap-3">
+            <button className="rounded-full bg-black/40 p-1">
+              <ChevronLeft />
+            </button>
+            <button className="rounded-full bg-black/40 p-1">
+              <ChevronRight />
+            </button>
+          </div>
+
+          <h1 className="font-semibold text-3xl mt-8">Good Afternoon</h1>
+
+          <div className="grid grid-cols-3 gap-4 mt-4">
+            <a href="https://www.youtube.com/watch?v=JAmt6zN9vOk&list=PLn5wg5YK7Mlp3j8-CMyrSsq8QXul-FcXH" className="bg-white/10 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <Image src="/deftones-gore.jpg" width={80} height={80} alt="Deftones-Gore album cover" />
+              <strong>Gore</strong>
+              <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play />
+              </button>
+            </a>
+            <a href="https://www.youtube.com/watch?v=kBFYjIuFKO4&list=PLQeroY7XkiFE_RbmlqM6yUknKoEhY3TYI" className="bg-white/10 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <Image src="/the-marshall-mathers-lp-eminem.jpg" width={80} height={80} alt="Eminem-The Marshall Mathers LP album cover" />
+              <strong>Marshall Mathers</strong>
+              <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play />
+              </button>
+            </a>
+            <a href="https://www.youtube.com/watch?v=rmleuQP5owA&list=PLo2VF3ux4qcZ6b7vL7SVhBEK_NAbKzsoD" className="bg-white/10 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <Image src="/black-sabbath-paranoid.jpg" width={80} height={80} alt="Black Sabbath-Paranoid album cover" />
+              <strong>Paranoid</strong>
+              <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play />
+              </button>
+            </a>
+            <a href="https://www.youtube.com/watch?v=JAmt6zN9vOk&list=PLn5wg5YK7Mlp3j8-CMyrSsq8QXul-FcXH" className="bg-white/10 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <Image src="/deftones-gore.jpg" width={80} height={80} alt="Deftones-Gore album cover" />
+              <strong>Gore</strong>
+              <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play />
+              </button>
+            </a>
+            <a href="https://www.youtube.com/watch?v=kBFYjIuFKO4&list=PLQeroY7XkiFE_RbmlqM6yUknKoEhY3TYI" className="bg-white/10 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <Image src="/the-marshall-mathers-lp-eminem.jpg" width={80} height={80} alt="Eminem-The Marshall Mathers LP album cover" />
+              <strong>Marshall Mathers</strong>
+              <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play />
+              </button>
+            </a>
+            <a href="https://www.youtube.com/watch?v=rmleuQP5owA&list=PLo2VF3ux4qcZ6b7vL7SVhBEK_NAbKzsoD" className="bg-white/10 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <Image src="/black-sabbath-paranoid.jpg" width={80} height={80} alt="Black Sabbath-Paranoid album cover" />
+              <strong>Paranoid</strong>
+              <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
+                <Play />
+              </button>
+            </a>
+          </div>
         </main>
       </div>
       <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
