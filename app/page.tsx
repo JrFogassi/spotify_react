@@ -95,6 +95,40 @@ export default function Home() {
           </div>
 
           <h2 className="font-semibold text-2xl mt-8">Made For You</h2>
+
+          <div className="grid grid-cols-5 gap-4 mt-4">
+            
+            <a href="#" className="bg-white/5 p-2 rounded-md flex flex-col gap-2 hover:bg-white/10">
+            <Image src="/deftones-gore.jpg" className="w-full" width={80} height={80} alt="Deftones-Gore album cover" />
+            <strong className="font-semibold">Daily Mix</strong>
+            <span className="text-sm text-zinc-400">Deftones, Eminem, Black Sabbath and more</span>
+            </a>
+            
+            <a href="#" className="bg-white/5 p-2 rounded-md flex flex-col gap-2 hover:bg-white/10">
+            <Image src="/the-marshall-mathers-lp-eminem.jpg" className="w-full" width={80} height={80} alt="Eminem-The Marshall Mathers LP album cover" />
+            <strong className="font-semibold">Daily Mix</strong>
+            <span className="text-sm text-zinc-400">Deftones, Eminem, Black Sabbath and more</span>
+            </a>
+            
+            <a href="#" className="bg-white/5 p-2 rounded-md flex flex-col gap-2 hover:bg-white/10">
+            <Image src="/black-sabbath-paranoid.jpg" className="w-full" width={80} height={80} alt="Black Sabbath-Paranoid album cover" />
+            <strong className="font-semibold">Daily Mix</strong>
+            <span className="text-sm text-zinc-400">Deftones, Eminem, Black Sabbath and more</span>
+            </a>
+            
+            <a href="#" className="bg-white/5 p-2 rounded-md flex flex-col gap-2 hover:bg-white/10">
+            <Image src="/deftones-gore.jpg" className="w-full" width={80} height={80} alt="Deftones-Gore album cover" />
+            <strong className="font-semibold">Daily Mix</strong>
+            <span className="text-sm text-zinc-400">Deftones, Eminem, Black Sabbath and more</span>
+            </a>
+            
+            <a href="#" className="bg-white/5 p-2 rounded-md flex flex-col gap-2 hover:bg-white/10">
+            <Image src="/the-marshall-mathers-lp-eminem.jpg" className="w-full" width={80} height={80} alt="Eminem-The Marshall Mathers LP album cover" />
+            <strong className="font-semibold">Daily Mix</strong>
+            <span className="text-sm text-zinc-400">Deftones, Eminem, Black Sabbath and more</span>
+            
+            </a>
+          </div>
         </main>
       </div>
       <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
