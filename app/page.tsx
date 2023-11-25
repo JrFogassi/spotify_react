@@ -50,49 +50,51 @@ export default function Home() {
           <h1 className="font-semibold text-3xl mt-8">Good Afternoon</h1>
 
           <div className="grid grid-cols-3 gap-4 mt-4">
-            <a href="https://www.youtube.com/watch?v=JAmt6zN9vOk&list=PLn5wg5YK7Mlp3j8-CMyrSsq8QXul-FcXH" className="bg-white/10 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+            <a href="https://www.youtube.com/watch?v=JAmt6zN9vOk&list=PLn5wg5YK7Mlp3j8-CMyrSsq8QXul-FcXH" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
               <Image src="/deftones-gore.jpg" width={80} height={80} alt="Deftones-Gore album cover" />
               <strong>Gore</strong>
               <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black"/>
               </button>
             </a>
-            <a href="https://www.youtube.com/watch?v=kBFYjIuFKO4&list=PLQeroY7XkiFE_RbmlqM6yUknKoEhY3TYI" className="bg-white/10 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+            <a href="https://www.youtube.com/watch?v=kBFYjIuFKO4&list=PLQeroY7XkiFE_RbmlqM6yUknKoEhY3TYI" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
               <Image src="/the-marshall-mathers-lp-eminem.jpg" width={80} height={80} alt="Eminem-The Marshall Mathers LP album cover" />
               <strong>Marshall Mathers</strong>
               <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black"/>
               </button>
             </a>
-            <a href="https://www.youtube.com/watch?v=rmleuQP5owA&list=PLo2VF3ux4qcZ6b7vL7SVhBEK_NAbKzsoD" className="bg-white/10 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+            <a href="https://www.youtube.com/watch?v=rmleuQP5owA&list=PLo2VF3ux4qcZ6b7vL7SVhBEK_NAbKzsoD" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
               <Image src="/black-sabbath-paranoid.jpg" width={80} height={80} alt="Black Sabbath-Paranoid album cover" />
               <strong>Paranoid</strong>
               <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black"/>
               </button>
             </a>
-            <a href="https://www.youtube.com/watch?v=JAmt6zN9vOk&list=PLn5wg5YK7Mlp3j8-CMyrSsq8QXul-FcXH" className="bg-white/10 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+            <a href="https://www.youtube.com/watch?v=JAmt6zN9vOk&list=PLn5wg5YK7Mlp3j8-CMyrSsq8QXul-FcXH" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
               <Image src="/deftones-gore.jpg" width={80} height={80} alt="Deftones-Gore album cover" />
               <strong>Gore</strong>
               <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black"/>
               </button>
             </a>
-            <a href="https://www.youtube.com/watch?v=kBFYjIuFKO4&list=PLQeroY7XkiFE_RbmlqM6yUknKoEhY3TYI" className="bg-white/10 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+            <a href="https://www.youtube.com/watch?v=kBFYjIuFKO4&list=PLQeroY7XkiFE_RbmlqM6yUknKoEhY3TYI" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
               <Image src="/the-marshall-mathers-lp-eminem.jpg" width={80} height={80} alt="Eminem-The Marshall Mathers LP album cover" />
               <strong>Marshall Mathers</strong>
               <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black"/>
               </button>
             </a>
-            <a href="https://www.youtube.com/watch?v=rmleuQP5owA&list=PLo2VF3ux4qcZ6b7vL7SVhBEK_NAbKzsoD" className="bg-white/10 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+            <a href="https://www.youtube.com/watch?v=rmleuQP5owA&list=PLo2VF3ux4qcZ6b7vL7SVhBEK_NAbKzsoD" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
               <Image src="/black-sabbath-paranoid.jpg" width={80} height={80} alt="Black Sabbath-Paranoid album cover" />
               <strong>Paranoid</strong>
               <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black"/>
               </button>
             </a>
           </div>
+
+          <h2 className="font-semibold text-2xl mt-8">Made For You</h2>
         </main>
       </div>
       <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
