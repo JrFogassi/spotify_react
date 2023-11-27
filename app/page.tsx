@@ -131,8 +131,20 @@ export default function Home() {
           </div>
         </main>
       </div>
-      <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
-        footer
+      <footer className="bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
+       <div className="flex items-center gap-3">
+       <Image src="/deftones-gore.jpg" width={56} height={56} alt="Deftones-Gore album cover" />
+       <div className="flex flex-col">
+        <strong className="font-normal">Phantom Bride</strong>
+        <span className="text-xs text-zinc-400">Deftones</span>
+       </div>
+       </div>
+       <div>
+
+       </div>
+       <div>
+
+       </div>
       </footer>
     </div>
   )
