@@ -1,4 +1,4 @@
-import {Home as HomeIcon, Search, BookHeadphones, ChevronLeft, ChevronRight, Play} from 'lucide-react'
+import {Home as HomeIcon, Search, BookHeadphones, ChevronLeft, ChevronRight, Play, Shuffle, SkipBack, SkipForward, Repeat} from 'lucide-react'
 import Image from 'next/image'
 
 export default function Home() {
@@ -133,14 +133,32 @@ export default function Home() {
       </div>
       <footer className="bg-zinc-800 border-t border-zinc-700 p-6 flex items-center justify-between">
        <div className="flex items-center gap-3">
-       <Image src="/deftones-gore.jpg" width={56} height={56} alt="Deftones-Gore album cover" />
-       <div className="flex flex-col">
-        <strong className="font-normal">Phantom Bride</strong>
-        <span className="text-xs text-zinc-400">Deftones</span>
-       </div>
-       </div>
-       <div>
+        <Image src="/deftones-gore.jpg" width={56} height={56} alt="Deftones-Gore album cover" />
+          <div className="flex flex-col">
+            <strong className="font-normal">Phantom Bride</strong>
+            <span className="text-xs text-zinc-400">Deftones</span>
+          </div>
+        </div>
+       
+       <div className="flex flex-col items-center gap-2">
+          <div className="flex items-center gap-6">
+            <Shuffle size={20} className="text-zinc-200 hover:text-green-500"/>
+            <SkipBack fill="white" size={20} className="text-zinc-200 hover:text-green-500 hover:fill-green-500" />
+            
+            <button className="w-10 h-10 flex items-center justify-center pl-0.5 rounded-full bg-white text-black">
+                <Play fill="bg-black"/>
+            </button>
 
+            <SkipForward fill="white" size={20} className="text-zinc-200 hover:text-green-500 hover:fill-green-500" />
+            <Repeat size={20} className="text-zinc-200 hover:text-green-500"/>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-xs text-zinc-400">0:43</span>
+            <div className="h-1 rounded-full w-96 bg-zinc-600">
+              <div className="bg-zinc-200 w-10 h-1 rounded-full"></div>
+            </div>
+            <span className="text-xs text-zinc-400">4:23</span>
+          </div>
        </div>
        <div>
 
